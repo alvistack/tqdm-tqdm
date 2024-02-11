@@ -1,0 +1,4 @@
+python3-tqdm: copyright-without-copyright-notice
+python3-tqdm: initial-upload-closes-no-bugs
+python3-tqdm: no-manual-page
+python3-tqdm: zero-byte-file-in-doc-directory
