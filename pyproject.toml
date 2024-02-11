@@ -1,10 +1,6 @@
 [build-system]
-requires = ["setuptools>=42", "wheel", "setuptools_scm[toml]>=3.4"]
+requires = ["setuptools>=42", "wheel"]
 build-backend = "setuptools.build_meta"
-
-[tool.setuptools_scm]
-write_to = "tqdm/_dist_ver.py"
-write_to_template = "__version__ = '{version}'\n"
 
 [tool.setuptools.packages.find]
 exclude = ["benchmarks", "examples", "tests", "wiki", "docs", "feedstock"]
@@ -17,7 +13,7 @@ wiki = "https://github.com/tqdm/tqdm/wiki"
 
 [project]
 name = "tqdm"
-dynamic = ["version"]
+version = "4.66.1"
 maintainers = [{name = "tqdm developers", email = "devs@tqdm.ml"}]
 description = "Fast, Extensible Progress Meter"
 readme = "README.rst"

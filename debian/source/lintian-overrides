@@ -1,0 +1,5 @@
+python-tqdm source: file-without-copyright-information
+python-tqdm source: no-debian-changes
+python-tqdm source: source-contains-prebuilt-windows-binary
+python-tqdm source: source-is-missing
+python-tqdm source: source-package-encodes-python-version
