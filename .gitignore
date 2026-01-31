@@ -24,3 +24,5 @@ __pycache__/
 /wiki/
 /docs/
 /feedstock/
+
+.pybuild/
